@@ -1,15 +1,17 @@
 import Head from 'next/head'
 import Navbar from './NavBar'
+import Footer from './Footer'
 
 
-const BaseLayout = ({title, children }) => {
+const BaseLayout = ({children }) => {
     return (
         <>
             
             <Navbar/>
-            <main>
+            <main className='mb-96'>
                 {children}
             </main>
+            <Footer />
         </>
     )
 }
