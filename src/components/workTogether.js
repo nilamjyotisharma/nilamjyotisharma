@@ -10,7 +10,7 @@ const WorkTogether = ({link}) => {
               
               <div className='flex-row'>
                 
-                <h1 className='font-extrabold text-3xl lg:text-5xl'>Lets <br /><span className='text-gray-600'>Work Together</span></h1>
+                <h1 className='font-extrabold text-4xl lg:text-5xl'>Lets <br /><span className='text-gray-600'>Work Together</span></h1>
               </div>
               
               <div className='flex md:justify-end justify-center text-4xl md:text-3xl mt-8 text-neutral-400 hover:text-white hover:scale-110 duration-200 cursor-pointer'>

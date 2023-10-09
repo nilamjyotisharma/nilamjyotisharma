@@ -30,7 +30,7 @@ const page = () => {
           <div className='flex items-center justify-center duration-200 hover:scale-95 row-span-2 lg:col-span-2 lg:row-span-1 '>
           <BiSolidQuoteLeft className='text-neutral-700 lg:text-[3rem] mb-12'/>
             <div>
-              <h1 className='md:text-[4rem] lg:text-[4.2rem] sm:text-4xl text-2xl uppercase font-bold'>self summary</h1>
+              <h1 className='md:text-[4rem] lg:text-[4.2rem] sm:text-4xl text-2xl uppercase font-bold'>About me</h1>
             </div>
             <BiSolidQuoteRight className='text-neutral-700 lg:text-[3rem] mb-12' />
           </div>
@@ -38,9 +38,8 @@ const page = () => {
           <div className='flex-row md:space-y-4 space-y-3 md:px-16 md:py-6 px-8 py-4'>
             {/* <div><BiSolidQuoteLeft className='text-neutral-400 text-[2rem] lg:text-[4rem]'/></div> */}
             <div className=''><h1 className='md:text-3xl text-2xl mt-4 font-bold'>Nilam Jyoti Sharma</h1></div>
-            <div><p className='text-neutral-400 text-xs md:text-sm'>Strong in design and integration with intuitive
-                  problem-solving skills. Proficient in JAVA, JAVASCRIPT, REACT JS and NEXT JS. Looking to start the career                         as an entry-level software engineer with a reputed firm driven
-                  by technology.</p></div>
+            <div><p className='text-neutral-400 text-xs md:text-sm'>Strong in design and integration with intuitive problem-solving skills. Proficient in JAVA, JAVASCRIPT, REACT JS and NEXT JS. Looking to start the career as an entry-level software engineer with a reputed firm driven
+            by technology.</p></div>
             <div className='flex md:justify-end justify-center text-4xl md:text-3xl mt-8 text-neutral-400 hover:text-white hover:scale-110 duration-200 cursor-pointer'>
             <Link href='/about'>
               <BsFillArrowRightCircleFill />

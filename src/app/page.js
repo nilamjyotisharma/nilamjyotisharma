@@ -83,7 +83,7 @@ export default function Home() {
               </div>
               
               <div className='text-4xl md:text-3xl text-neutral-400 hover:text-white hover:translate-x-4 duration-200 cursor-pointer'>
-                <Link href='/'>
+                <Link href='/works'>
                   <BsFillArrowRightCircleFill />
                 </Link>
               </div>
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
               
               <div className='text-4xl md:text-3xl text-neutral-400 hover:text-white hover:translate-x-4 duration-200 cursor-pointer'>
-                <Link href='/'>
+                <Link href='/skills'>
                   <BsFillArrowRightCircleFill />
                 </Link>
               </div>
@@ -146,7 +146,7 @@ export default function Home() {
               </div>
               
               <div className='text-4xl md:text-3xl text-neutral-400 hover:text-white hover:translate-x-4 duration-200 cursor-pointer'>
-                <Link href='/'>
+                <Link href='/contact'>
                   <BsFillArrowRightCircleFill />
                 </Link>
               </div>
@@ -174,11 +174,11 @@ export default function Home() {
               
               <div className='flex-row'>
                 <p className='text-neutral-400 uppercase'>stay with me</p>
-                <h1 className='font-bold text-2xl'>Profiles</h1>
+                <h1 className='font-bold text-2xl'>Profile</h1>
               </div>
               
               <div className='text-4xl md:text-3xl text-neutral-400 hover:text-white hover:translate-x-4 duration-200 cursor-pointer'>
-                <Link href='/'>
+                <Link href='/contact'>
                   <BsFillArrowRightCircleFill />
                 </Link>
               </div>
@@ -219,7 +219,7 @@ export default function Home() {
 
 
           <div className="col-span-1 rounded-3xl border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212] duration-200 hover:scale-95">
-            <WorkTogether link='/' />
+            <WorkTogether link='/contact' />
 
           
           </div>
