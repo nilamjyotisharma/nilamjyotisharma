@@ -38,7 +38,7 @@ const NavBar = () => {
            
         </ul>
         <div className='hidden lg:inline-flex'>
-        <Link href="mailto:nilamjyotisharma2000@gmail.com"><button className='-mt-2 px-6 font-semibold py-2 rounded-xl bg-neutral-600 text-white hover:bg-white hover:text-black duration-300'>Let's talk</button></Link>
+        <Link href={"mailto:nilamjyotisharma2000@gmail.com"}><button className='-mt-2 px-6 font-semibold py-2 rounded-xl bg-neutral-600 text-white hover:bg-white hover:text-black duration-300'>Let's talk</button></Link>
         </div>
         <div className={`${click === true ? "hidden lg:inline-flex" : "inline lg:inline-flex"} inline-flex lg:hidden`}>
             <FiMenu onClick={handleMenu} className='text-4xl font-bold' />
