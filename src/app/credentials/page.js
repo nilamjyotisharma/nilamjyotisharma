@@ -65,13 +65,14 @@ const Page = () => {
                       </div>
                       <div>
                       <p className='text-neutral-400 text-xs md:text-sm'>
-                      {"I'm Nilam Jyoti Sharma, a dedicated web developer with a passion for creating interactive and user-friendly online experiences. With 4 years of experience in the field, I've had the privilege of working on a diverse range of projects, from crafting sleek and responsive front-end interfaces to architecting robust back-end systems. My expertise includes proficiency in technologies such as Next JS, React JS and JavaScript. I thrive on tackling complex challenges to deliver innovative solutions."}
+                      {/* {""} */}
+                      I'm Nilam Jyoti Sharma, a dedicated web developer with a passion for creating interactive and user-friendly online experiences. With 4 years of experience in the field, I've had the privilege of working on a diverse range of projects, from crafting sleek and responsive front-end interfaces to architecting robust back-end systems. My expertise includes proficiency in technologies such as Next JS, React JS and JavaScript. I thrive on tackling complex challenges to deliver innovative solutions.replace(/[^a-zA-Z ]/g, "")
                       </p> <br />
                       <p className='text-neutral-400 text-xs md:text-sm'>
-                      {"My journey in web development began from my BTech first year, and it has been an exciting and ever-evolving ride since then. I'm committed to staying at the forefront of industry trends and best practices to ensure that every project I work on meets the highest standards of quality, performance, and accessibility. I'm also a strong believer in the power of teamwork, and I enjoy collaborating with other developers, designers, and stakeholders to bring projects to life."}
+                      {/* {"My journey in web development began from my BTech first year, and it has been an exciting and ever-evolving ride since then. I'm committed to staying at the forefront of industry trends and best practices to ensure that every project I work on meets the highest standards of quality, performance, and accessibility. I'm also a strong believer in the power of teamwork, and I enjoy collaborating with other developers, designers, and stakeholders to bring projects to life."} */}
                       </p> <br/>
                       <p className='text-neutral-400 text-xs md:text-sm'>
-                      {"When I'm not coding, you can often find me on spending times with my family, travelling, cooking, playing musical instruments etc, which fuels my creativity and problem-solving skills. I believe that effective web development is not just about lines of code but also about understanding the unique needs of each project and its users."}
+                      {/* {"When I'm not coding, you can often find me on spending times with my family, travelling, cooking, playing musical instruments etc, which fuels my creativity and problem-solving skills. I believe that effective web development is not just about lines of code but also about understanding the unique needs of each project and its users."} */}
                       </p>
 
                       </div>

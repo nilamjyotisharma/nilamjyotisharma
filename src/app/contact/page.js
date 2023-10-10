@@ -1,10 +1,10 @@
 "use client"
+import { useState } from "react";
 import BaseLayout from "@/layouts/BaseLayout";
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsTelephone } from 'react-icons/bs';
 import { IoLocationOutline } from 'react-icons/io5';
 import { BsLinkedin, BsGithub, BsInstagram, BsFacebook } from 'react-icons/bs';
-import { useState } from "react";
 import axios from "axios";
 
 // export const metadata = {
@@ -12,7 +12,6 @@ import axios from "axios";
 // }
 
 const Page = () => {
-  
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');

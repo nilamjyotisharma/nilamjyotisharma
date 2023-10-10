@@ -6,7 +6,7 @@ import Link from 'next/link';
 const ProjectCard = (props) => {
   return (
     <>
-        <Link href={`/works/ + ${props.title}`}>
+        {/* <Link href={`/works/ + ${props.title}`}> */}
         <div className='flex items-center mb-8'><Image className="rounded-3xl" src={props.image} width={800} height={800} alt='No image found' /></div>
                 <div className="px-2 flex justify-between mb-4">
                     <div className='flex-row space-y-4'>
@@ -25,7 +25,7 @@ const ProjectCard = (props) => {
                     <div></div>
                   
                 </div>
-        </Link>
+        {/* </Link> */}
     </>
   )
 }
