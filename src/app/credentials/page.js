@@ -23,7 +23,7 @@ const Page = () => {
     <BaseLayout>
     <>
     <div>
-        <div className='mx-12 md:mx-12 lg:mx-44 h-screen my-24'>
+        <div className='mx-4 md:mx-12 lg:mx-44 h-screen my-24'>
             <div className='grid grid-rows-3 lg:grid-cols-4 lg:grid-rows-1 gap-4'>
                 <div className='border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212]  duration-200 hover:scale-95 row-span-2 lg:row-span-1 lg:col-span-3 lg:rounded-l-3xl flex items-center rounded-t-3xl lg:rounded-none'>
                 <div className='flex-row justify-center items-center md:flex py-12 px-8 lg:p-8'>

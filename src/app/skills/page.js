@@ -68,7 +68,7 @@ const Skill = () => {
     <>
 
         
-        <div className='mx-12 md:mx-12 lg:mx-44 my-24 h-screen'>
+        <div className='mx-4 md:mx-12 lg:mx-44 my-24 h-screen'>
         <SkilllComponent skills = {skills} />
         </div>
     </>

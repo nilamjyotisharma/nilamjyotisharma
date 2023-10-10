@@ -69,7 +69,7 @@ const Works = () => {
     <BaseLayout>
       <>
       
-        <div className="mx-8 md:mx-24 lg:mx-48">
+        <div className="mx-2 md:mx-24 lg:mx-48">
           <div className="grid grid-rows-7 md:grid-rows-5 md:grid-cols-2 lg:grid-rows-3 lg:grid-cols-7 lg:grid-flow-col-dense md:grid-flow-row-dense gap-4">
             <div className="duration-200 hover:scale-95 row-span-1 md:row-span-1 md:col-span-2 lg:col-span-4 lg:row-span-1 flex justify-center items-center">
 

@@ -49,7 +49,7 @@ const Page = () => {
               <div className="p-4 bg-neutral-900 rounded-xl text-3xl"><AiOutlineMail /></div>
               <div>
                 <h1 className="uppercase text-neutral-500 text-sm mb-1">Mail Us</h1>
-                <h1 className="text-neutral-200 text-sm">nilamjyotisharma2000@gmail.com</h1>
+                <h1 className="text-neutral-200 text-sm flex flex-wrap">nilamjyotisharma2000@gmail.com</h1>
                 <h1 className="text-neutral-200 text-sm">u19ece1016@cit.ac.in</h1>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Page = () => {
           </div>
           <div>
             <div><h1 className="uppercase text-lg font-semibold">Social Info</h1></div>
-            <div className="flex justify-start space-x-4 mt-12 text-[3rem]">
+            <div className="flex justify-start space-x-4 mt-12 text-2xl md:text-[3rem]">
               <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white p-4 rounded-2xl bg-neutral-900'><BsLinkedin /></div>
               <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white p-4 rounded-2xl bg-neutral-900'><BsGithub /></div>
               <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white p-4 rounded-2xl bg-neutral-900'><BsInstagram /></div>
