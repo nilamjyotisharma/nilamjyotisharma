@@ -45,7 +45,7 @@ const Page = () => {
         <div><h1 className="uppercase text-lg font-semibold">contact info</h1></div>
           <div className="flex-row space-y-12">
             
-            <div className="flex justify-start space-x-4 items-center">
+            <div className="flex justify-start space-x-2 md:space-x-4 items-center">
               <div className="p-4 bg-neutral-900 rounded-xl text-3xl"><AiOutlineMail /></div>
               <div>
                 <h1 className="uppercase text-neutral-500 text-sm mb-1">Mail Us</h1>
@@ -53,7 +53,7 @@ const Page = () => {
                 <h1 className="text-neutral-200 text-sm">u19ece1016@cit.ac.in</h1>
               </div>
             </div>
-            <div className="flex justify-start space-x-4 items-center">
+            <div className="flex justify-start space-x-2 md:space-x-4 items-center">
               <div className="p-4 bg-neutral-900 rounded-xl text-3xl"><BsTelephone /></div>
               <div>
                 <h1 className="uppercase text-neutral-500 text-sm mb-1">Contact Us</h1>
