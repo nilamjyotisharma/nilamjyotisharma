@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
     <BaseLayout>
-    <div className='h-screen mx-2 md:mx-24 lg:mx-36 mt-24'>
+    <div className='h-screen mx-4 md:mx-24 lg:mx-36 mt-24'>
 
     <div className=''>
       <div className='grid grid-flow-row lg:grid-cols-4 md:grid-cols-2 gap-4'>

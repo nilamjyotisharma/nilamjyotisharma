@@ -19,7 +19,7 @@ export const metadata = {
 const page = () => {
   return (
     <BaseLayout>
-    <div className='mx-12 md:mx-12 lg:mx-44 h-screen my-24'>
+    <div className='mx-4 md:mx-12 lg:mx-44 h-screen my-24'>
       <div>
         <div className='grid grid-col-1 lg:gap-y-1 gap-y-4 gap-x-4 lg:grid-cols-3 lg:grid-rows-3 lg:grid-flow-dense'>
           <div className='rounded-3xl flex justify-center border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212]  duration-200 hover:scale-95 row-span-2 lg:col-span-1 lg:row-span-3'>
