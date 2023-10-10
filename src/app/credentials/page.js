@@ -108,11 +108,11 @@ const Page = () => {
                   <div className='flex-col space-y-4 p-8'>
                     <div><h1 className='md:text-2xl text-3xl mt-4 font-bold uppercase'>skills</h1></div>
                     <div className='flex flex-wrap space-2 justify-start'>
-                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white hover:scale-105 duration-200 cursor-pointer hover:font-semibold rounded-xl'>Web Developement</h1></div>
-                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white hover:scale-105 duration-200 cursor-pointer hover:font-semibold rounded-xl'>JavaScript</h1></div>
-                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white hover:scale-105 duration-200 cursor-pointer hover:font-semibold rounded-xl'>React JS</h1></div>
-                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white hover:scale-105 duration-200 cursor-pointer hover:font-semibold rounded-xl'>Next JS</h1></div>
-                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white hover:scale-105 duration-200 cursor-pointer hover:font-semibold rounded-xl'>Tailwind</h1></div>
+                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white duration-200 cursor-pointer hover:font-semibold rounded-xl'>Web Developement</h1></div>
+                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white duration-200 cursor-pointer hover:font-semibold rounded-xl'>JavaScript</h1></div>
+                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white duration-200 cursor-pointer hover:font-semibold rounded-xl'>React JS</h1></div>
+                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white duration-200 cursor-pointer hover:font-semibold rounded-xl'>Next JS</h1></div>
+                      <div><h1 className='md:text-sm text-xs m-1 px-4 py-2 bg-neutral-600 hover:text-black hover:bg-white duration-200 cursor-pointer hover:font-semibold rounded-xl'>Tailwind</h1></div>
                     </div>
                   </div>
 

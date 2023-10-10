@@ -11,7 +11,7 @@ import axios from "axios";
 //   title : 'Contact'
 // }
 
-const page = () => {
+const Page = () => {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -114,4 +114,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
