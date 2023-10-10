@@ -39,7 +39,7 @@ const Page = () => {
     <BaseLayout>
     <>
 
-      <div className="mx-12 md:mx-12 lg:mx-44 md:my-24">
+      <div className="mx-4 md:mx-12 lg:mx-44 md:my-24">
       <div className='grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 gap-4'>
         <div className='col-span-1 row-span-1 md:col-span-1 md:row-span-1 text-lg space-y-8 font-semibold'>
         <div><h1 className="uppercase text-lg font-semibold">contact info</h1></div>
