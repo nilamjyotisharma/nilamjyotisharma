@@ -47,10 +47,18 @@ const Page = () => {
                 </div>
                 <div className='border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212]  duration-200 hover:scale-95 row-span-1 lg:col-span-1 lg:rounded-r-3xl lg:rounded-none flex justify-center items-center rounded-b-3xl'>
                     <div className='lg:flex-col flex space-x-4 md:space-x-12 md:space-y-0 lg:space-y-8 lg:space-x-0 px-2 md:py-12 text-center text-[2rem] md:text-[4rem]'>
+                    <Link href='https://www.linkedin.com/in/nilam-jyoti-sharma-2912681aa/' target='blank'>
                         <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white'><BsLinkedin /></div>
+                    </Link>
+                    <Link href='https://github.com/nilamjyotisharma' target='blank'>
                         <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white'><BsGithub /></div>
+                      </Link>
+                      <Link href='https://www.instagram.com/___nilam.____/' target='blank'>
                         <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white'><BsInstagram /></div>
+                      </Link> 
+                      <Link href='https://www.facebook.com/nilamjyoti.sharma/' target='blank'>
                         <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white'><BsFacebook /></div>
+                      </Link>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@ import { BsTelephone } from 'react-icons/bs';
 import { IoLocationOutline } from 'react-icons/io5';
 import { BsLinkedin, BsGithub, BsInstagram, BsFacebook } from 'react-icons/bs';
 import axios from "axios";
+import Link from "next/link";
 
 // export const metadata = {
 //   title : 'Contact'
@@ -73,10 +74,18 @@ const Page = () => {
           <div>
             <div><h1 className="uppercase text-lg font-semibold">Social Info</h1></div>
             <div className="flex justify-start space-x-4 mt-12 text-2xl md:text-[3rem]">
+            <Link href='https://www.linkedin.com/in/nilam-jyoti-sharma-2912681aa/' target='blank'>
               <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white p-4 rounded-2xl bg-neutral-900'><BsLinkedin /></div>
+              </Link>
+              <Link href='https://github.com/nilamjyotisharma' target='blank'>
               <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white p-4 rounded-2xl bg-neutral-900'><BsGithub /></div>
+              </Link>
+              <Link href='https://www.instagram.com/___nilam.____/' target='blank'>
               <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white p-4 rounded-2xl bg-neutral-900'><BsInstagram /></div>
+              </Link>
+              <Link href='https://www.facebook.com/nilamjyoti.sharma/' target='blank'>
               <div className='duration-200 hover:scale-110 cursor-pointer text-neutral-300 hover:text-white p-4 rounded-2xl bg-neutral-900'><BsFacebook /></div>
+              </Link>
             </div>
           </div>
         </div>

@@ -92,7 +92,7 @@ const page = () => {
               </div>
               
               <div className='text-4xl md:text-3xl text-neutral-400 hover:text-white hover:translate-x-4 duration-200 cursor-pointer'>
-                <Link href='/'>
+                <Link href='/contact'>
                   <BsFillArrowRightCircleFill />
                 </Link>
               </div>

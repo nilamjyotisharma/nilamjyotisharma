@@ -7,8 +7,8 @@ const BaseLayout = ({children }) => {
     return (
         <>
             
-            <Navbar/>
-            <main className='mb-96'>
+            <Navbar />
+            <main>
                 {children}
             </main>
             <Footer />
