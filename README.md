@@ -1,10 +1,10 @@
-
+![logo](https://drive.google.com/file/d/1w98tudqKARpCIv4ilaODq6nWnFsHuayG/view?usp=sharing)
 <h1 align="center">Hi 👋, I'm Nilam Jyoti Sharma</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-<p align="left"> <a href="https://twitter.com/nilamjyotisharma" target="blank"><img src="https://img.shields.io/twitter/follow/nilamjyotisharma?logo=twitter&style=for-the-badge" alt="nilamjyotisharma" /></a> </p>
 
 - 🔭 I’m currently working on **NextJS Project**
+<img align="right" width="400" src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="nilamjyotisharma" />
 
 - 🌱 I’m currently learning **NextJS, MERN**
 
@@ -12,13 +12,16 @@
 
 - 💬 Ask me about **Front-End Development, MERN**
 
-[![MasterHead](https://www.behance.net/gallery/52570863/GIF-Web-development/modules/310530201)](https://rishavchanda.io)
+
 - 📫 How to reach me **nilamjyotisharma2000@gmil.com**
 
 - ⚡ Fun fact **I am interested to learn and explore new things**
 
+ <p align="left"> <a href="https://twitter.com/nilamjyotisharma" target="blank"></a></p>
+
+
 <h3 align="left">Connect with me:</h3>
-<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/f1/e7/34/f1e734f9cade86fe737a9aa404ad5677.gif">
+
 <p align="left">
 <a href="https://twitter.com/nilamjyotisharma" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nilamjyotisharma" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/nilam-jyoti-sharma-2912681aa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nilam-jyoti-sharma-2912681aa" height="30" width="40" /></a>
