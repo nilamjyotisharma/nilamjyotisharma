@@ -1,4 +1,4 @@
-![logo](https://drive.google.com/file/d/1w98tudqKARpCIv4ilaODq6nWnFsHuayG/view?usp=sharing)
+![logo](https://github.com/nilamjyotisharma/nilamjyotisharma/blob/main/Black%20Simple%20Graphic%20Design%20LinkedIn%20Article%20Cover%20Image.png)
 <h1 align="center">Hi 👋, I'm Nilam Jyoti Sharma</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
