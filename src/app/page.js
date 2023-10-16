@@ -12,6 +12,8 @@ import { FaGithub } from 'react-icons/fa';
 import Credent from '../components/credent';
 import WorkTogether from '../components/workTogether';
 import SmallTiles from '../components/smallTiles';
+import TypeAnimate from '@/components/typeAnimate';
+
 
 
 
@@ -31,17 +33,17 @@ export default function Home() {
 
     <div className=''>
       <div className='grid grid-flow-row lg:grid-cols-4 md:grid-cols-2 gap-4'>
-       <div className='md:col-span-2 lg:col-span-2 lg:row-span-3 rounded-3xl border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212]  duration-200 hover:scale-95'>
+       <div className='md:col-span-2 lg:col-span-2 lg:row-span-3 rounded-3xl border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212]  duration-200 hover:scale-95 flex justify-center items-center'>
 
-        <div className='p-12 flex-row justify-center'>
-          <div className='flex-row space-y-8 justify-center md:flex md:space-x-8 items-center'>
+        <div className='p-4 md:p-8 flex-row justify-center '>
+          <div className='flex-row space-y-8 justify-center md:flex md:space-x-8 md:space-y-0 items-center'>
             <div>
               <Image className='rounded-tl-3xl rounded-br-3xl' src='/profile.png' width={400} height={500} alt='No image found' />
             </div>
 
-            <div className='flex-row space-y-2'>
+            <div className='flex-row space-y-3'>
               <p className='text-neutral-400 uppercase'>A Web Developer</p>
-              <h1 className='font-bold text-3xl md:text-3xl'>Nilam Jyoti Sharma</h1>
+              <h1 className='font-bold text-3xl md:text-4xl'>Nilam Jyoti Sharma</h1>
               <p className='text-neutral-400 text-lg'>Crafting digital experiences one line of code at a time</p>
             </div>
           </div>
@@ -56,8 +58,8 @@ export default function Home() {
        </div>
 
        <div className='md:col-span-2 lg:col-span-2 lg:row-span-1 rounded-3xl border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212]'>
-       <div>
-        <h1></h1>
+       <div className='flex justify-center py-4'>
+          <TypeAnimate />
        </div>
           
        </div>
