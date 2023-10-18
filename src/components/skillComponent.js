@@ -1,7 +1,22 @@
 "use client"
-import React, { useEffect, useState, useRef } from 'react'
+import React from 'react'
+import Image from 'next/image';
+import { useState, useRef, useEffect } from 'react';
 
 const SkilllComponent = ({skills}) => {
+
+
+  // return(
+  //   <>
+  //     <div>
+  //       <div>
+  //           <Image src='/html.svg' width={400} height={500} alt='No image found' />
+  //       </div>
+  //       <div></div>
+  //     </div>
+  //   </>
+  // )
+
     const [selected, setSelected] = useState(0);
     const firstTabRef = useRef(null);
 
