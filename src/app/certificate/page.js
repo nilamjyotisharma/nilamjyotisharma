@@ -1,6 +1,7 @@
 import SkilllComponent from '@/components/skillComponent'
 import BaseLayout from '@/layouts/BaseLayout'
 import React from 'react'
+import CertificateCard from '@/components/certificateCard'
 
 
 export const metadata = {
@@ -66,11 +67,20 @@ const Skill = () => {
   return (
     <BaseLayout>
     <>
+        <div className='mx-2 md:mx-4 lg:mx-32 my-8 md:my-16 h-screen2'>
 
         
-        <div className='mx-4 md:mx-12 lg:mx-44 my-24 h-screen'>
-        <SkilllComponent skills = {skills} />
+            <div className='flex flex-wrap justify-center align-middle'>
+
+            <CertificateCard img='/google_certificate.jpg' header='Google Certificate' desc='The Fundamentals of Digital Marketing'org='Google' link='https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code' />
+
+            <CertificateCard img='/nielit_internship.jpg' header='Internship Certificate' desc='Training cum Internship on Machine Learning'org='NIELIT, Guwahati' link='' />
+            
         </div>
+
+        </div>
+
+        
     </>
     </BaseLayout>
   )

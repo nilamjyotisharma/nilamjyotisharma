@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 // import { FaLaptopCode } from 'react-icons/fa';
-import { GoLightBulb } from 'react-icons/go';
+import { PiCertificate } from 'react-icons/pi';
 import { FcIdeas } from 'react-icons/fc';
 import { BsCodeSlash } from 'react-icons/bs';
 import { ImLinkedin2 } from 'react-icons/im';
@@ -102,20 +102,20 @@ export default function Home() {
           <div className="md:col-span-1 lg:col-span-1 rounded-3xl border-2 border-neutral-900 bg-gradient-to-br from-[#212121] to-[#121212] duration-200 hover:scale-95">
 
           <div className='flex-row justify-center px-4 py-8 lg:pb-4 space-y-16'>
-            <div className=' text-[9rem]'>
-              <GoLightBulb className='mx-auto'/>
+            <div className=' text-[8rem]'>
+              <PiCertificate className='mx-auto'/>
               
             </div>
             
             <div className='flex justify-between px-4 items-middle'>
               
               <div className='flex-row'>
-                <p className='text-neutral-400 uppercase'>expertise</p>
-                <h1 className='font-bold text-2xl'>Skills</h1>
+                <p className='text-neutral-400 uppercase'>certifications</p>
+                <h1 className='font-bold text-2xl'>Certificates</h1>
               </div>
               
               <div className='text-4xl md:text-3xl text-neutral-400 hover:text-white hover:translate-x-4 duration-200 cursor-pointer'>
-                <Link href='/skills'>
+                <Link href='/certificate'>
                   <BsFillArrowRightCircleFill />
                 </Link>
               </div>
