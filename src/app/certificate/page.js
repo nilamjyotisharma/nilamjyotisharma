@@ -2,64 +2,19 @@ import SkilllComponent from '@/components/skillComponent'
 import BaseLayout from '@/layouts/BaseLayout'
 import React from 'react'
 import CertificateCard from '@/components/certificateCard'
+import Credent from '@/components/credent'
+import ServiceCards from '@/components/serviceCard'
+import Cards from '@/components/cards'
+
 
 
 export const metadata = {
-    title : 'Skills'
+    title : 'Certificates'
   }
 
 const Skill = () => {
 
-    const skills = [
-        {
-            title: 'HTML',
-            desc: 'HTML (Hypertext Markup Language) is the standard markup language used to create and structure content on the World Wide Web. It is a fundamental technology for building web pages and is used to define the structure and layout of web documents, including text, images, links, forms, and multimedia elements. HTML provides a set of elements and tags that are used to mark up or structure the content, making it understandable by web browsers.',
-            exp: '4 year',
-        },
-        {
-            title: 'CSS',
-            desc: 'CSS (Cascading Style Sheets) is a stylesheet language used in web development to control the presentation and layout of HTML (Hypertext Markup Language) documents. CSS enables web developers to define how the elements and content within a web page should appear on the screen or in print. It separates the structure (defined by HTML) from the visual styling, making it easier to manage and maintain the design of a website.',
-            exp: '4 year',
-        },
-        {
-            title: 'JavaScript',
-            desc: 'JavaScript is a versatile and widely used programming language primarily used for creating interactive and dynamic functionality in web development. It is often referred to as the "scripting language of the web" because it allows developers to add behavior to web pages, making them more engaging and responsive. JavaScript is an essential component of modern web development and is supported by all major web browsers.',
-            exp: '4 year',
-        },
-        {
-            title: 'ReactJS',
-            desc: 'React (often referred to as React.js or ReactJS) is an open-source JavaScript library for building user interfaces (UIs) for web applications. Developed and maintained by Facebook and a community of individual developers, React is widely used for creating dynamic, interactive, and reusable UI components. It was first released in 2013 and has since gained popularity for its efficiency and flexibility in front-end web development.',
-            exp: '1 year',
-        },
-        {
-            title: 'NextJS',
-            desc: 'Next.js is an open-source JavaScript framework that is built on top of React.js. It is designed to simplify and accelerate the development of modern web applications, particularly for server-rendered React applications. Next.js provides a set of features and conventions for building robust, high-performance web applications with ease.',
-            exp: '1 year',
-        },
-        {
-            title: 'NodeJS',
-            desc: 'Node.js is an open-source, server-side JavaScript runtime environment that allows developers to run JavaScript on the server. It was created by Ryan Dahl in 2009 and has since gained widespread adoption and popularity in web development. Node.js is known for its non-blocking, event-driven architecture, which makes it well-suited for building scalable and high-performance network applications.',
-            exp: '2 year',
-        },
-        {
-            title: 'ExpressJS',
-            desc: 'Express.js, often simply referred to as Express, is a minimal and flexible web application framework for Node.js. It provides a robust set of features and tools for building web and mobile applications, APIs (Application Programming Interfaces), and server-side applications in JavaScript. Express is widely used in the Node.js ecosystem because it simplifies the development of web applications by offering a structured and organized way to handle HTTP requests and manage routes.',
-            exp: '2 year',
-        },
-        {
-            title: 'MongoDB',
-            desc: 'MongoDB is a popular open-source, NoSQL database management system designed for scalability, flexibility, and ease of development. It falls into the category of document-oriented databases, which means it stores data in a format similar to JSON documents. MongoDB is known for its ability to handle large volumes of unstructured or semi-structured data and is widely used for a variety of applications, including web and mobile app development, content management systems, and analytics.',
-            exp: '2 year',
-        },
-        {
-            title: 'Tailwind',
-            desc: 'Tailwind CSS is a popular, utility-first CSS framework that simplifies and streamlines the process of designing and styling web applications. It is designed to help developers create responsive and customizable user interfaces rapidly. Tailwind CSS provides a set of pre-built utility classes that can be applied directly to HTML elements, allowing for a more efficient and consistent way to style web components.',
-            exp: '1 year',
-        }
-
-    ]
-
-
+    
 
 
 
@@ -67,18 +22,57 @@ const Skill = () => {
   return (
     <BaseLayout>
     <>
-        <div className='mx-2 md:mx-4 lg:mx-32 my-8 md:my-16 h-screen2'>
+        <div className='mx-4 md:mx-32 lg:mx-32 my-20 md:my-28 flex-col md:space-y-8'>
 
-        
+            <div className='flex justify-center'><h className='md:text-[4rem] lg:text-[3.5rem] sm:text-4xl text-2xl uppercase font-bold'>My Certifications</h></div>
             <div className='flex flex-wrap justify-center align-middle'>
 
             <CertificateCard img='/google_certificate.jpg' header='Google Certificate' desc='The Fundamentals of Digital Marketing'org='Google' link='https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code' />
 
-            <CertificateCard img='/nielit_internship.jpg' header='Internship Certificate' desc='Training cum Internship on Machine Learning'org='NIELIT, Guwahati' link='' />
+            <CertificateCard img='/nielit_internship.jpg' header='Internship Certificate' desc='Training cum Internship on Machine Learning'org='NIELIT, Guwahati' link='https://nielit.gov.in/guwahati/index.php' />
             
         </div>
 
+        <div className="grid md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 md:grid-flow-col-dense gap-4 pt-16 md:pt-24">
+            <div className="rounded-3xl dark:border-2 dark:border-neutral-900 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] bg-white/50 duration-200 hover:scale-95 md:col-span-1 lg:col-span-1 lg:row-span-1">
+
+
+          <Cards img1='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-32 h-32">
+  <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
+</svg>
+' img2='' desc = 'main section' title='Home' link='/'/>
+
+            </div>
+            <div className="rounded-3xl dark:border-2 dark:border-neutral-900 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] bg-white/50 duration-200 hover:scale-95 md:col-span-2 lg:col-span-2 lg:row-span-1">
+            
+
+          <ServiceCards img1='<svg
+      fill="currentColor"
+      viewBox="0 0 16 16"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path d="M13.5 3a.5.5 0 01.5.5V11H2V3.5a.5.5 0 01.5-.5h11zm-11-1A1.5 1.5 0 001 3.5V12h14V3.5A1.5 1.5 0 0013.5 2h-11zM0 12.5h16a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 010 12.5z" />
+    </svg>' img2='<svg
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path d="M17 6V5h-2V2H3v14h5v4h3.25H11a2 2 0 01-2-2V8a2 2 0 012-2h6zm-5.75 14H3a2 2 0 01-2-2V2c0-1.1.9-2 2-2h12a2 2 0 012 2v4a2 2 0 012 2v10a2 2 0 01-2 2h-5.75zM11 8v8h6V8h-6zm3 11a1 1 0 100-2 1 1 0 000 2z" />
+    </svg>' desc = 'specialization' title='Services Offering' link='/contact'/>
+
+            </div>
+            <div className="rounded-3xl dark:border-2 dark:border-neutral-900 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] bg-white/50 duration-200 hover:scale-95 md:col-span-1 lg:col-span-1 lg:row-span-1">
+            <Credent img1='/sign.png' img2='/sign_light.png' description='More About Me' header='Credentials' link='/credentials' />
+            </div>
+          </div>
+
         </div>
+
+        
 
         
     </>

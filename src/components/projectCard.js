@@ -25,7 +25,7 @@ const ProjectCard = (props) => {
             <div className='flex items-center align-middle mb-8'><Image className="rounded-3xl" src={props.image} width={800} height={800} alt='No image found' /></div>
                 <div className="px-2 flex justify-between mb-4">
                     <div className='flex-row space-y-4'>
-                        <h1 className='text-neutral-400 text-xs uppercase'>{props.desc}</h1>
+                        <h1 className='dark:text-neutral-400 text-neutral-600 text-xs uppercase'>{props.desc}</h1>
                         <h1 className='font-bold text-xl w-48 h-8 text-ellipsis whitespace-nowrap overflow-hidden'>{props.title}</h1>
                         {
                             props.status === 'Completed' ? (
@@ -44,24 +44,24 @@ const ProjectCard = (props) => {
             
         ) : (
             <>
-        <div className='py-4 px-2 flex-row items-center space-y-8'>
-            <div className='flex text-2xl font-bold p-4 text-neutral-100 rounded-xl'><FaLightbulb className='text-6xl mr-4' />{props.title}</div>
+        <div className='py-4 px-2 flex-row items-center space-y-8 text-neutral-600 dark:text-neutral-400'>
+            <div className='flex text-2xl font-bold p-4 dark:text-neutral-100 text-neutral-800 rounded-xl'><FaLightbulb className='text-6xl mr-4' />{props.title}</div>
 
-            <div className='flex text-neutral-300'><TbListDetails className='text-2xl mr-3' />{props.desc}</div>
+            <div className='flex '><TbListDetails className='text-2xl mr-3' />{props.desc}</div>
 
-            <div className='flex space-x-4 text-neutral-300'><div><BiSolidDevices className='text-2xl mr-4' /></div>{props.details}<div></div></div>
+            <div className='flex space-x-4'><div><BiSolidDevices className='text-2xl mr-4' /></div>{props.details}<div></div></div>
 
 
-            <div className='flex text-neutral-300'><BiSolidCheckCircle className='text-2xl mr-3' />{props.status}</div>
+            <div className='flex'><BiSolidCheckCircle className='text-2xl mr-3' />{props.status}</div>
 
             
 
             
 
             <div className='flex justify-between'>
-            <div className='flex text-neutral-300'><CgSandClock className='text-2xl mr-3' />{props.duration}</div>
+            <div className='flex'><CgSandClock className='text-2xl mr-3' />{props.duration}</div>
             <Link href={props.link} target='blank'>
-            <div className='animate-bounce font-bold text-white text-[4rem] hover:scale-110 hover:text-white duration-200 cursor-pointer left-0 mt-4'><BsGithub /></div>
+            <div className='animate-bounce font-bold dark:text-white text-neutral-800 text-[4rem] hover:scale-110 hover:text-white duration-200 cursor-pointer left-0 mt-4'><BsGithub /></div>
             </Link>
             </div>
             

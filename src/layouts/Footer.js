@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='flex bottom-0'>
-    <div className='flex-row text-center hidden space-y-5 mt-auto mb-48 bottom-0'>
+    <div className='h-full my-32'>
+    <div className='flex-row text-center space-y-5 mt-auto'>
         <div>
-            <h1 className='text-3xl font-extrabold'>Nilam Jyoti Sharma</h1>
+            <h1 className='text-3xl font-extrabold dark:text-white text-gray-800'>Nilam Jyoti Sharma</h1>
         </div>
 
         <div>
-            <ul className={`lg:inline-flex justify-center gap-20 text-neutral-500 uppercase`} >
+            <ul className={`lg:inline-flex justify-center gap-20 text-gray-700 dark:text-neutral-500 uppercase`} >
 
                 <Link href="/"><li className={`hover:text-white duration-300`}>Home</li></Link>
                 <Link href="/credentials"><li className='hover:text-white duration-300'>Credentials</li></Link>

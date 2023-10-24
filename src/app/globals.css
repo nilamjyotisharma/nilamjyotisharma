@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: white;
-  background: #0F0F0F;
-  position: relative;
+@layer base{
+
+  body {
+  @apply bg-gradient-to-r from-indigo-500/40 via-pink-600/60 to-blue-400/40 bg-white dark:bg-[#0f0f0f] dark:bg-gradient-to-t dark:from-[#0f0f0f] dark:to-[#0f0f0f];
+  @apply text-neutral-800 dark:text-white;
+  @apply relative;
+  
+  
 }
+} 
