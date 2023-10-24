@@ -7,6 +7,7 @@ import clsx from "clsx";
 import Button from '@/components/button';
 import { useTheme } from 'next-themes';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 
 
@@ -16,6 +17,7 @@ const NavBar = () => {
 
     const { systemTheme, theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
+    const pathname = usePathname();
 
     useEffect(() => 
     setMounted(true)
@@ -88,10 +90,10 @@ const NavBar = () => {
         </Link>
         <ul className='hidden lg:inline-flex justify-center gap-12 font-semibold text-gray-700 dark:text-neutral-500'>
         
-            <Link href="/"><li className={`hover:text-white duration-300 hover:scale-105`}>Home</li></Link>
-            <Link href="/about"><li className='hover:text-white duration-300 hover:scale-105'>About</li></Link>
-            <Link href="/works"><li className='hover:text-white duration-300 hover:scale-105'>Works</li></Link>
-            <Link href="/contact"><li className='hover:text-white duration-300 hover:scale-105'>Contact</li></Link>
+            <Link href="/"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/' ? 'text-white' : ''} hover:scale-105`}>Home</li></Link>
+            <Link href="/about"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/about' ? 'text-white' : ''} hover:scale-105`}>About</li></Link>
+            <Link href="/works"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/works' ? 'text-white' : ''} hover:scale-105`}>Works</li></Link>
+            <Link href="/contact"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/contact' ? 'text-white' : ''} hover:scale-105`}>Contact</li></Link>
            
         </ul>
 
@@ -110,10 +112,10 @@ const NavBar = () => {
             />
 
             <ul className='flex-row space-x-10 font-semibold text-xl'>
-            <Link href="/"><li className={`hover:text-neutral-800 dark:hover:text-white`}>Home</li></Link>
-            <Link href="/about"><li className='hover:text-neutral-800 dark:hover:text-white'>About</li></Link>
-            <Link href="/works"><li className='hover:text-neutral-800 dark:hover:text-white'>Works</li></Link>
-            <Link href="/contact"><li className='hover:text-neutral-800 dark:hover:text-white'>Contact</li></Link>
+            <Link href="/"><li className={`hover:text-white duration-300 ${pathname === '/' ? 'text-pink-700 dark:text-white' : ''} hover:scale-105`}>Home</li></Link>
+            <Link href="/about"><li className={`hover:text-white duration-300 ${pathname === '/about' ? 'text-pink-700 dark:text-white' : ''} hover:scale-105`}>About</li></Link>
+            <Link href="/works"><li className={`hover:text-white duration-300 ${pathname === '/works' ? 'text-pink-700 dark:text-white' : ''} hover:scale-105`}>Works</li></Link>
+            <Link href="/contact"><li className={`hover:text-white duration-300 ${pathname === '/contact' ? 'text-pink-700 dark:text-white' : ''} hover:scale-105`}>Contact</li></Link>
            
             </ul>
             <div className='flex-col space-y-4 font-semibold text-xl'>

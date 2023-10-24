@@ -69,33 +69,7 @@ const page = () => {
       <div>
         <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 md:grid-flow-row-dense gap-4 mt-4'>
           <div className='rounded-3xl dark:border-2  dark:border-neutral-900 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] bg-white/50 duration-200 hover:scale-95 md:col-span-1 lg:col-span-1'>
-          {/* <div className='flex-row justify-center px-4 py-8 lg:pb-8 space-y-6'>
-            <div className='mt-0 py-1 px-2 text-[7rem]'>
-              <div className='flex py-12 justify-evenly mx-auto'>
-               <ImLinkedin2 className='text-7xl'/>
-               <FaGithub className='text-7xl'/>
-
-              </div>
-
-
-              
-            </div>
-            
-            <div className='flex justify-between px-4 items-middle'>
-              
-              <div className='flex-row'>
-                <p className='text-neutral-400 uppercase'>stay with me</p>
-                <h1 className='font-bold text-2xl'>Profiles</h1>
-              </div>
-              
-              <div className='text-4xl md:text-3xl text-neutral-400 hover:text-white hover:translate-x-4 duration-200 cursor-pointer'>
-                <Link href='/contact'>
-                  <BsFillArrowRightCircleFill />
-                </Link>
-              </div>
-            </div>
-            
-          </div> */}
+          
           <ServiceCards img1='<svg
       viewBox="0 0 900 1000"
       fill="currentColor"
@@ -115,7 +89,7 @@ const page = () => {
     </svg>' desc = 'stay with me' title='Profile' link='/contact'/>
           </div>
           <div className='rounded-3xl dark:border-2  dark:border-neutral-900 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] bg-white/50 duration-200 hover:scale-95 md:col-span-2 lg:col-span-2'>
-            <WorkTogether link='/' />
+            <WorkTogether link='/contact' />
           </div>
           <div className='rounded-3xl dark:border-2  dark:border-neutral-900 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] bg-white/50 duration-200 hover:scale-95 md:col-span-1 lg:col-span-1'>
 

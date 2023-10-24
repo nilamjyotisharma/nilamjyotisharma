@@ -24,7 +24,7 @@ const Skill = () => {
     <>
         <div className='mx-4 md:mx-32 lg:mx-32 my-20 md:my-28 flex-col md:space-y-8'>
 
-            <div className='flex justify-center'><h className='md:text-[4rem] lg:text-[3.5rem] sm:text-4xl text-2xl uppercase font-bold'>My Certifications</h></div>
+            <div className='flex justify-center'><h className='md:text-[4rem] lg:text-[3.5rem] sm:text-4xl text-2xl uppercase font-bold text-white drop-shadow-lg'>Certifications</h></div>
             <div className='flex flex-wrap justify-center align-middle'>
 
             <CertificateCard img='/google_certificate.jpg' header='Google Certificate' desc='The Fundamentals of Digital Marketing'org='Google' link='https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code' />

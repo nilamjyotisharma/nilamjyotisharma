@@ -156,7 +156,7 @@ const HomeComp = () => {
 
 
 
-      <div className="col-span-1 rounded-3xl dark:border-2 shadow-xl dark:border-neutral-900 bg-white/50 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] duration-200 hover:scale-95">
+      <div className="col-span-1 rounded-3xl dark:border-2 dark:border-neutral-900 bg-white/50 dark:bg-gradient-to-br dark:from-[#212121] dark:to-[#121212] duration-200 hover:scale-95">
         <WorkTogether link='/contact' />
 
       
