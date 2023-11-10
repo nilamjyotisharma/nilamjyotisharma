@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **NextJS, MERN**
 
-- 👨‍💻 All of my projects are available at [https://nilamjyotisharma-git-main-nilamjyotisharmas-projects.vercel.app/](https://nilamjyotisharma-git-main-nilamjyotisharmas-projects.vercel.app/)
+- 👨‍💻 All of my projects are available at [https://nilamjyotisharma.vercel.app](https://nilamjyotisharma.vercel.app)
 
 - 💬 Ask me about **Front-End Development, MERN**
 
