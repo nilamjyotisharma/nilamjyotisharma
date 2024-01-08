@@ -38,7 +38,7 @@ const Page = () => {
                         </div>
 
                         <div className='flex-row space-y-4 md:space-y-4 dark:text-neutral-400 text-neutral-600 font-medium'>
-                        <p className='flex items-center space-x-2'><MdEngineering className='text-4xl mr-4' />Backelor of Technology</p>
+                        <p className='flex items-center space-x-2'><MdEngineering className='text-4xl mr-4' />Bachelor of Technology</p>
                         <p className='flex items-center space-x-2'><MdGppGood className='text-4xl mr-4' /> Electronics and Communication Engineering</p>
                         <p className='flex items-center space-x-2'><LiaLaptopCodeSolid className='text-4xl mr-4' /> Web Developer</p>
                         <p className='flex items-center space-x-2'><MdManageAccounts className='text-4xl mr-4' /> React Intern at XopunTech Pvt Ltd</p></div>

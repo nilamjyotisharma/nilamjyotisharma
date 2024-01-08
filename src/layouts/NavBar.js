@@ -88,7 +88,7 @@ const NavBar = () => {
         />
 
         </Link>
-        <ul className='hidden lg:inline-flex justify-center gap-12 font-semibold text-gray-700 dark:text-neutral-500'>
+        <ul className='hidden lg:inline-flex items-center justify-center gap-12 font-semibold text-gray-700 dark:text-neutral-500'>
         
             <Link href="/"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/' ? 'text-white' : ''} hover:scale-105`}>Home</li></Link>
             <Link href="/about"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/about' ? 'text-white' : ''} hover:scale-105`}>About</li></Link>
