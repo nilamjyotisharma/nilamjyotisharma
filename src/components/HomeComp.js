@@ -10,6 +10,10 @@ import { cn } from "@/lib/utils";
 import { HoverEffect } from "./ui/card-hover-effect";
 import Link from 'next/link';
 import MyServiceCard from './myServiceCard';
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
+import SocialIcon from './SocialIcon';
+import { designations } from './data/words';
+import { skills } from './data/skills';
 
 
 
@@ -31,45 +35,8 @@ export const Highlights = ({
 };
 
 
-const words = ["Software Engineer", "Web Developer", "MERN Developer", "Spring Boot Developer"];
-export const skills = [
-  {
-    title: "React.js",
-    description:
-      "A powerful JavaScript library for building dynamic and interactive user interfaces, focusing on component-based architecture and efficient rendering.",
-    link: "https://reactjs.org",
-  },
-  {
-    title: "Next.js",
-    description:
-      "A React framework that provides infrastructure and simple development experience for server-side rendering, static site generation, and routing.",
-    link: "https://nextjs.org",
-  },
-  {
-    title: "MERN Stack",
-    description:
-      "A full-stack development framework comprising MongoDB, Express.js, React.js, and Node.js, enabling the creation of robust, scalable, and responsive web applications.",
-    link: "https://mern.io",
-  },
-  {
-    title: "Spring Boot",
-    description:
-      "A Java-based framework for building production-ready, standalone applications with minimal configuration, focusing on microservices architecture.",
-    link: "https://spring.io/projects/spring-boot",
-  },
-  {
-    title: "Java",
-    description:
-      "A versatile and widely-used programming language known for its object-oriented features, platform independence, and strong memory management capabilities.",
-    link: "https://www.java.com",
-  },
-  {
-    title: "Tailwind CSS",
-    description:
-      "A utility-first CSS framework for rapidly building custom user interfaces, offering responsive design features and highly customizable styling.",
-    link: "https://tailwindcss.com",
-  },
-];
+
+
 
 
 
@@ -86,8 +53,18 @@ const HomeComp = () => {
           <h1><span className="bg-gradient-to-r from-[#6B32EE] to-[#E50879] bg-clip-text text-transparent">Nilam Jyoti Sharma,</span></h1>
           
           <h1 className='w-[44rem] text-[2.7rem]'>Turning <span className="bg-gradient-to-r from-[#6B32EE] to-[#E50879] bg-clip-text text-transparent">Code</span> Into <span className='bg-gradient-to-r from-[#6B32EE] to-[#E50879] bg-clip-text text-transparent'>Experiences</span></h1>
-          <h1 className='text-[1.5rem] text-neutral-400 font-normal'><FlipWords className={'text-3xl'} words={words} /></h1>
-          
+          <h1 className='text-[1.5rem] text-neutral-400 font-normal'><FlipWords className={'text-3xl'} words={designations} /></h1>
+
+
+
+          {/* <div className="flex justify-center md:justify-start space-x-8 mt-4 md:mt-8 text-2xl md:text-[2.5rem]">
+              
+              <SocialIcon href='https://www.linkedin.com/in/nilam-jyoti-sharma-2912681aa/' icon={BsLinkedin} />
+              <SocialIcon href='https://github.com/nilamjyotisharma' icon={BsGithub} />
+              <SocialIcon href='https://www.instagram.com/___nilam.____/' icon={BsInstagram} />
+              <SocialIcon href='https://www.facebook.com/nilamjyoti.sharma/' icon={BsFacebook} />
+
+          </div> */}
           
         </div>
         <div>
@@ -139,7 +116,7 @@ const HomeComp = () => {
 
       <div className='py-12'>
        <div className="text-center flex flex-col justify-center">
-       <h className="text-center font-semibold text-lg text-neutral-600">About Me</h><br/>
+       <h className="text-center font-semibold text-lg text-neutral-600 uppercase">About Me</h><br/>
        <h className="text-center font-extrabold text-3xl bg-gradient-to-r from-[#6B32EE] to-[#E50879] bg-clip-text text-transparent">My Soft Skills</h><br/>
 
        <h className='w-[46rem] text-center mx-auto font-medium text-neutral-500'>Strong in design and integration with intuitive problem-solving skills. Proficient in JAVA, JAVASCRIPT, REACT JS and NEXT JS. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology</h>
@@ -160,7 +137,7 @@ const HomeComp = () => {
 
        <h className='w-[46rem] text-center mx-auto font-medium text-neutral-500'>We bring your ideas to life by crafting immersive digital experiences across web and mobile platforms. With a seamless blend of creativity and technology, our websites and Android apps are designed to captivate users and elevate your brand. Let us turn your vision into a reality that resonates and endures.</h>
 
-      <div className="mx-24">
+      <div className="px-48">
         <MyServiceCard />
       </div>
       

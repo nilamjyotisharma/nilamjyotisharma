@@ -1,0 +1,1 @@
+export const designations = ["Software Engineer", "Web Developer", "MERN Developer", "Spring Boot Developer"];

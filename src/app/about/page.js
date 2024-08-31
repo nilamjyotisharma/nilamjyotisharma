@@ -10,6 +10,7 @@ import { ImLinkedin2 } from 'react-icons/im';
 import { FaGithub } from 'react-icons/fa';
 import WorkTogether from '../../components/workTogether';
 import ServiceCards from '../../components/serviceCard';
+import AboutHeroSection from '@/components/aboutHeroSection';
 
 
 export const metadata = {
@@ -20,7 +21,7 @@ export const metadata = {
 const page = () => {
   return (
     <BaseLayout>
-      
+      <AboutHeroSection />
     </BaseLayout>
   )
 }
