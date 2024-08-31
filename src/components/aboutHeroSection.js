@@ -27,7 +27,7 @@ const AboutHeroSection = () => {
           <div className='py-8'>
             <div className='flex space-x-12'>
             {personalInfo.map((data, index) => (
-              <div className='flex flex-col justify-between text-left'>
+              <div key={index} className='flex flex-col justify-between text-left'>
                 <h className = 'uppercase text-lg'>{data?.key}</h>
                 <h className='text-neutral-500 font-normal text-sm'>{data?.value}</h>
               </div>
