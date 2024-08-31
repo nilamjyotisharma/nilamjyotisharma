@@ -51,7 +51,7 @@ const AboutHeroSection = () => {
             <h><span className="bg-gradient-to-r from-[#6B32EE] to-[#E50879] bg-clip-text text-transparent">2+ Software Services</span><br/>Available Online</h>
           </div>
           <div className='z-0'>
-            <Image className='w-[23rem] h-[30rem] -mt-12 rounded-[6rem] shadow-lg' src='/prof.jpeg' width={600} height={600} alt='No image found' />
+            <Image className='w-[23rem] h-[30rem] -mt-12 rounded-[6rem] shadow-lg' src='/profile1.jpeg' width={600} height={600} alt='No image found' />
           </div>
           
         </div>
