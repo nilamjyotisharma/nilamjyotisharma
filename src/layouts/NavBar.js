@@ -90,10 +90,10 @@ const NavBar = () => {
         </Link>
         <ul className='hidden lg:inline-flex items-center justify-center gap-12 font-semibold text-gray-700 dark:text-neutral-500'>
         
-            <Link href="/"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/' ? 'text-white' : ''} hover:scale-105`}>Home</li></Link>
-            <Link href="/about"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/about' ? 'text-white' : ''} hover:scale-105`}>About</li></Link>
-            <Link href="/works"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/works' ? 'text-white' : ''} hover:scale-105`}>Works</li></Link>
-            <Link href="/contact"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/contact' ? 'text-white' : ''} hover:scale-105`}>Contact</li></Link>
+            <Link href="/"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/' ? 'text-[#5777FF]' : ''} hover:scale-105`}>Home</li></Link>
+            <Link href="/about"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/about' ? 'text-[#5777FF]' : ''} hover:scale-105`}>About</li></Link>
+            <Link href="/works"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/works' ? 'text-[#5777FF]' : ''} hover:scale-105`}>Works</li></Link>
+            <Link href="/contact"><li className={`hover:text-white duration-300 drop-shadow-2xl ${pathname === '/contact' ? 'text-[#5777FF]' : ''} hover:scale-105`}>Contact</li></Link>
            
         </ul>
 
@@ -120,7 +120,7 @@ const NavBar = () => {
             </ul>
             <div className='flex-col space-y-4 font-semibold text-xl'>
             <div>{renderThemeChanger()}</div>
-            <div><Link href={"mailto:nilamjyotisharma2000@gmail.com"}><button className='px-6 font-semibold py-2 rounded-xl bg-gradient-to-br from-pink-400 to-indigo-500 dark:bg-gradient-to-br dark:from-neutral-600 dark:to-neutral-600 text-white hover:bg-white hover:text-black duration-300'>Let's talk</button></Link></div>
+            <div><Link href={"mailto:nilamjyotisharma2000@gmail.com"}><button className='px-6 font-semibold py-2 rounded-xl text-white hover:bg-[#5777FF] hover:text-white duration-300'>Let's talk</button></Link></div>
             
         </div>
           </section>
@@ -128,7 +128,7 @@ const NavBar = () => {
 
         
         <div className='hidden lg:inline-flex lg:gap-8'>
-        <Link href={"mailto:nilamjyotisharma2000@gmail.com"}><button className='shadow-xl px-6 font-semibold py-2 rounded-xl bg-white dark:bg-neutral-600 hover:scale-105 dark:hover:bg-white hover:text-black duration-300'>Let's talk</button></Link>
+        <Link href={"mailto:nilamjyotisharma2000@gmail.com"}><button className='px-6 font-semibold py-2 rounded-xl text-white bg-gradient-to-r from-[#6B32EE] to-[#E50879] hover:text-white duration-300'>Let's talk</button></Link>
         {renderThemeChanger()}
         </div>
         <div className={`${click === true ? "hidden lg:inline-flex" : "inline lg:inline-flex"} inline-flex lg:hidden`}>
